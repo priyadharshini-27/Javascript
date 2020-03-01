@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+<body>
+    <div id="char">
+        <p>1 for add<br>
+        2 for subraction</br>
+        3 for multiplication</br>
+        4 for division<br>
+        </p>
+        <label for="n1">Operation to Perform:</label><br>
+        <input type="text" id="n1" placeholder='Enter between 1 and 4:'><br>
+        <label for="n2">Input_1:</label><br>
+        <input type="text" id="n2"><br>
+        <label for="n3">Input_2</label><br>
+        <input type="text" id='n3'>
+    </div>
+    <div id="submit" >
+        <input type="submit" onclick="display();return false">
+    </div>
+    <div id="display">
+        <label for="op">Result:</label><br>
+        <input type="text" id='op'>
+    </div>
+    <script src=calculatorSwitch.js></script>
+</body>
+</html>
